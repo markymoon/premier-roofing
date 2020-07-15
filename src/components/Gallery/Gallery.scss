@@ -1,0 +1,72 @@
+.gallery {
+    .gallery-btn {
+        width: 49%;
+        display: inline-block;
+        border-radius: none;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .ReactModalPortal {
+        max-width: auto;
+    }
+
+    
+}
+
+.ril__toolbar {
+    top: 10vh;
+}
+
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+        .gallery {
+            .gallery-btn {}
+        }
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+        .gallery {
+            
+
+            .gallery-btn {
+                width: 33%;
+            }
+        }
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+        .gallery {
+            .row { 
+                margin-right: 0 !important;
+                margin-left: 0 !important;
+                text-align: center;
+            
+                .gallery-btn {
+                    width: 20%;
+                }
+            }
+        }
+
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+        .gallery {
+            .gallery-btn {}
+        }
+
+    }
+  }

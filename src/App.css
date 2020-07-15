@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  padding: 4.5em 0 0 0;
+  min-width: 375px;
+  background-color: #f7f7f7;
 }
 
 .App-logo {
@@ -19,4 +22,114 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+main {
+  text-align: left;
+  /* margin: 1em 1em !important; */
+  /* border: 1px solid red; */
+}
+
+/* =================================================== */
+/*                G L O B A L   S T Y L E S            */
+/* =================================================== */
+.callout {
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  padding: 1em 0.5em 0;
+  margin-bottom: 1em;
+}
+
+aside {
+  width: 45%;
+  margin-left: .5em;
+  float: right;
+  font-style: italic;
+  font-weight: bold;
+  color: #800000;
+}
+
+aside > p {
+  margin: .5em;
+}
+
+.bold {
+  font-weight: bold;
+  color: #800000;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 1px;
+  height: 0;
+  margin-bottom: 1em;
+}
+
+em {
+  font-weight: bold;
+  color: #800000;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 0.5em;
+}
+
+h1 {
+  font-size: 2em !important;
+  color: #800000;
+  margin-top: 1em !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5em !important;
+}
+
+h3 {
+  font-size: 1.25em !important;
+}
+
+section {
+  margin: 1em 0;
+}
+
+.container {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+.card {
+  margin: 0.5em 0em;
+}
+
+.card-subtitle {
+  /* margin-bottom: 0.5em; */
+}
+
+.card-text {
+  margin-top: 0.5em;
+}
+
+.page-banner { 
+  /* width: 100%; */
+  /* height: 5em; */
+  /* margin-left: -15px;
+  margin-right: -15px; */
+  margin: 0 -15px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page-banner img { width: 100%; }
+
+.divider { 
+  border: 1px solid #ddd; 
+  margin-bottom: 1em;
 }

@@ -1,0 +1,54 @@
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+      // border: 2px solid red; 
+    
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+      // border: 2px solid yellow;
+      
+      .wrapper { 
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 80%;
+      }
+      aside {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+      .callout {
+        text-align: center;
+        font-size: 1.5em;
+      }
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+      // border: 2px solid orange;
+
+      // .main-nav .subtitle {
+      //   font-size: 1em;
+      // }
+
+      aside {
+        width: 33%;
+      }
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+      // border: 2px solid green;
+      .container {
+        max-width: 100%;
+      }
+    }
+  }

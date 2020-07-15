@@ -1,0 +1,42 @@
+.testimonials {
+    .mobile-only {
+        display: block;
+    }
+}
+
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+        .testimonials {}
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+        .testimonials {}
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+        .testimonials {
+            .mobile-only {
+                display: none;
+            }
+        }
+
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+        .testimonials {
+            
+        }
+
+    }
+  }

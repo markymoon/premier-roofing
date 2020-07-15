@@ -1,0 +1,19 @@
+.welcome-carousel {
+    margin: 0 -15px;
+
+    .jumbotron {
+        padding: 0;
+        border-radius: 0;
+
+        .carousel {
+            padding: 0 0 2.5em 0;
+
+            .carousel-indicators {
+
+                li {
+                    background-color: #800000;
+                }
+            }
+        }
+    }
+}

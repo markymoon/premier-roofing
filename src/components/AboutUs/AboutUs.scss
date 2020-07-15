@@ -1,0 +1,38 @@
+.about-us {
+    .page-banner {
+      max-width: 100%;
+        img {
+            width: 100%;
+            // border: 3px solid green;
+        }
+    }
+}
+
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+    
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+
+    }
+}

@@ -1,0 +1,160 @@
+.testimonial-slider {
+    display: none; 
+
+    background-color: #d4d8d8!important;
+    // height: 50vh;
+    padding: 1.5em;
+    // border-radius: 1em;
+
+    .carousel {
+        background-color: #fff;
+        // border-radius: 1em;
+    }
+
+    .quote {
+        background-color: #800000;
+        padding: 2em 3em;
+        height: 50vh;
+        vertical-align: middle !important;
+
+        p {
+            // position: absolute;
+            // transform: translate(50%, 50%);
+            font-size: 1.5em;
+            // width: 75%;
+            
+            color: #fff;
+        }
+    }
+
+    .quote.long {
+        p {
+            font-size: 1.25em;
+        }
+    }
+
+    .quote.short {
+        p {
+            font-size: 2em;
+        }
+    }
+
+    .customer {
+        padding-top: 8em;
+        text-align: center;
+        vertical-align: middle !important;
+        font-size: 1.25em;
+        height: 50vh;
+
+        .client {
+            font-weight: bold;
+            font-size: 1.75em;
+        }
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-indicators li {
+        background-color: #acabab6d;
+    }
+}
+
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+        .testimonial-slider {}
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+        .testimonial-slider {}
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+        .testimonial-slider {
+            display: block;
+            margin-bottom: 3em;
+
+            .customer {
+                padding-top: 5em;
+            }
+            .quote {
+                p {
+                    font-size: 1.25em;
+                }
+            }
+            .quote.long {
+                p {
+                    font-size: 1em;
+                }
+            }
+        
+            .quote.short {
+                
+                p {
+                    font-size: 1.5em;
+                }
+            }
+
+            .customer {
+                padding-top: 6em;
+                text-align: center;
+                vertical-align: middle !important;
+                font-size: 1.25em;
+                height: 50vh;
+        
+                .client {
+                    font-weight: bold;
+                    font-size: 1.75em;
+                }
+            }
+        }
+
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+        .testimonial-slider {
+            .quote {
+                background-color: #800000;
+                padding: 4em 3em 0;
+                height: 50vh;
+                vertical-align: middle !important;
+        
+                p {
+                    // position: absolute;
+                    // transform: translate(50%, 50%);
+                    font-size: 1.5em;
+                    // width: 75%;
+                    
+                    color: #fff;
+                }
+            }
+        
+            .quote.long {
+                p {
+                    font-size: 1.25em;
+                }
+            }
+        
+            .quote.short {
+                padding-top: 6em;
+
+                p {
+                    font-size: 2em;
+                }
+            }
+        }
+
+    }
+  }

@@ -1,0 +1,63 @@
+.main-nav {
+    .navbar {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .bg-light {
+        background-color: #fff !important;
+        // #f8f9fa!important
+    }
+    .subtitle {
+        padding: 0.75em 0.5em 0.5em 1.5em;
+        font-size: 0.75em;
+        font-weight: 800;
+        color: #fff;
+        background-color: #800000;
+        text-align: left;
+        // position: fixed;
+        width: 100%;
+        // z-index: 10;
+    }
+
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: rgba(0, 0, 0, .8);
+            }
+        }
+    }
+}
+
+/*   M E D I A   Q U E R I E S   */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .App {
+        .main-nav {} 
+    
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .App {
+        .main-nav {}
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+        .main-nav {
+
+            nav,
+            .subtitle { padding-left: 10%;}
+        }
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+        .main-nav {}
+    }
+  }

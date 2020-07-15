@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url><loc>http://www.premierroof.com/</loc></url>
+  <url><loc>http://www.premierroof.com/index</loc></url>
+  <url><loc>http://www.premierroof.com/aboutUs</loc></url>
+  <url><loc>http://www.premierroof.com/testimonials</loc></url>
+  <url><loc>http://www.premierroof.com/references</loc></url>
+  <url><loc>http://www.premierroof.com/services</loc></url>
+  <url><loc>http://www.premierroof.com/products</loc></url>
+  <url><loc>http://www.premierroof.com/maintenance</loc></url>
+  <url><loc>http://www.premierroof.com/safety</loc></url>
+  <url><loc>http://www.premierroof.com/testfarm</loc></url>
+  <url><loc>http://www.premierroof.com/gallery</loc></url>
+  <url><loc>http://www.premierroof.com/contact</loc></url>
+</urlset>
